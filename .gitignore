@@ -1,1 +1,7 @@
 img/
+.idea/
+cmake-build-debug/
+CMakeLists.txt
+
+*.cpp
+!main.cpp
