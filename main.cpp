@@ -1,4 +1,6 @@
 #include <iostream>
+#include <mysql/mysql.h>
+#include <cgicc/Cgicc.h>
 
 int main() {
 	std::cout << "Hello, World!" << std::endl;
