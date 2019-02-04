@@ -12,7 +12,7 @@ In response you can get:
 ```bash
 libcgicc: /usr/lib/x86_64-linux-gnu/libcgicc.a /usr/lib/x86_64-linux-gnu/libcgicc.so
 ```  
-We wanted the first one: /usr/lib/x86_64-linux-gnu/libcgicc.a  
+We wanted the first one: `/usr/lib/x86_64-linux-gnu/libcgicc.a`  
 Now, the example compilation command looks like:
 ```bash
 g++ main.cpp /usr/lib/x86_64-linux-gnu/libcgicc.a -lmysqlclient -o api.cgi
