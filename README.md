@@ -3,10 +3,20 @@
 App that could be used for setup web in city displaying restaurants' menu. It's based on MIT license so please don't use it commercially.
 
 ## HTML
+- index.html
+
 Structure of website
+## CSS
+- style.css
+
+Stylesheet of website
 ## PHP
+- index.php
+
 Only used for display website on Heroku.
 ## CPP
+- main.cpp
+
 Api used for giving response to the client request.
 
 ### Compiling
