@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: roboto;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+header{
+    width: 100%;
+    height: 12vh;
+    background-color: #F9D518;
+}
+header h1 {
+    text-align: center;
+    line-height: 12vh;
+    font-size: 2rem;
+}
