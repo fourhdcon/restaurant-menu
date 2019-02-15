@@ -38,3 +38,9 @@ g++ main.cpp /usr/lib/x86_64-linux-gnu/libcgicc.a -lmysqlclient -O3 -o restauran
 ```
 
 **Note! Until you create a mysqlConnectionPass.txt file that has the right values to connect to the database, restaurant_menu.cgi will throw mysql_connection_error.**
+mysqlConnectionPass.txt should looks like:
+{ip of your database - host}
+{user}
+{password}
+{database name}
+{port}
