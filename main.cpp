@@ -28,14 +28,14 @@ std::vector<std::string> readPassFromFile(const std::string &src) {
 
 int main() {
 	cgicc::Cgicc formData;
-	std::string type = "view";
-	/*auto it = formData.getElement("type");
+	std::string type;
+	auto it = formData.getElement("type");
 
 	std::cout << "Content-type:text/html\r\n\r\n";
 
 	if (it != formData.getElements().end())
 		type = formData("type");
-	else errorShow("cgicc_error");*/
+	else errorShow("cgicc_error");
 
 	auto passes = readPassFromFile("mysqlConnectionPass.txt");
 
