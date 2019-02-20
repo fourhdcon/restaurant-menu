@@ -15,7 +15,7 @@ class App extends React.Component {
                 </main>
                 <footer>
                     <section class="AboutUs">
-                        <h2></h2>
+                        <h2>About Us</h2>
                         <p></p>
                     </section>
                     <section class="contact">
