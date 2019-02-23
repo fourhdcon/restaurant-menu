@@ -12,6 +12,8 @@ body {
 	font-family: roboto, sans-serif;
 	font-size: 10px;
 	text-transform: uppercase;
+	display: flex;
+	flex-direction: column;
 }
 
 header {
@@ -31,10 +33,49 @@ header h1 {
 
 main, footer {
 	display: flex;
-	align-items: center;
+	align-items: space-between;
 	justify-content: center;
 }
 
-footer h2 {
+main {
+	height: 48vh;
+	width: 100%;
+}
+
+main h2 {
+	margin: 10px 0 10px 0;
+	font-size: 1.2rem;
+}
+
+footer {
+	height: 130vh;
+	flex-direction: column;
 	text-align: center;
+}
+
+footer .AboutUs {
+	width: 100%;
+	height: 30vh;
+}
+
+.contact form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+input {
+	width: 70%;
+	height: 30px;
+	margin-top: 20px;
+}
+
+input:nth-of-type(3) {
+	height: 100px;
+}
+
+.contact button {
+	margin-top: 20px;
+	width: 70%;
+	height: 40px;
 }
