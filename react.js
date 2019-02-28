@@ -12,6 +12,7 @@ class App extends React.Component {
                         <img src="" alt=""></img>
                         <h3></h3>
                     </div>
+                    <h2>More...</h2>
                 </main>
                 <footer>
                     <section class="AboutUs">
